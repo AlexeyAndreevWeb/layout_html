@@ -1,9 +1,15 @@
+/*
+ font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;
+ */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container  {
@@ -30,7 +36,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-    font-weight: bold;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .header__logo span {
@@ -49,6 +55,7 @@
     width: 533px;
     margin-right: 34px;
     list-style: none;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .menu-item {
@@ -58,7 +65,6 @@
 
 .menu-link {
     text-decoration: none;
-    font-weight: 600;
     color: #000000;
 }
 
@@ -90,12 +96,12 @@
 .top__info-title {
     font-size: 60px;
     line-height: 70px;
-    font-weight: bold;
     margin-bottom: 17px;
     background-image: url('./images/ellipse.svg');
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 54%;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .top__info-description {
@@ -105,12 +111,15 @@
     color: #888888;
     font-weight: 500;
     margin-bottom: 37px;
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
 
 .top__info-buttons {
     display: flex;
     align-items: center;
     gap: 27px;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .start {
@@ -122,6 +131,8 @@
     color: #ffffff;
     cursor: pointer;
     box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Gilroy-Bold', sans-serif;
+    
 }
 
 .play {
@@ -137,7 +148,6 @@
     gap: 15px;
     background-color: #ffffff;
     color: #AAAAAA;
-    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
 }
@@ -169,6 +179,8 @@
     color: #000000;
     margin-bottom: 20px;
     width: 409px;
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
 
 .about__description {
@@ -177,6 +189,7 @@
     line-height: 24px;
     color: #666666;
     margin-bottom: 35px;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .about__btn {
@@ -187,6 +200,7 @@
     border-radius: 50px;
     border: none;
     box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 /* Features */
@@ -218,6 +232,7 @@
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 17px;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .features-card__description {
@@ -225,12 +240,13 @@
     line-height: 22px;
     color: #666666;
     margin-bottom: 25px;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .features-card__button {
     border: none;
     background-color: #ffffff;
-    font-weight: bold;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 /* Services */
@@ -252,6 +268,8 @@
     color: #000000;
     margin-top: 92px;
     margin-bottom: 19px;
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
 
 .services__description {
@@ -261,6 +279,8 @@
     line-height: 24px;
     color: #666666;
     margin-bottom: 55px;
+    font-family: 'Gilroy-Regular', sans-serif;
+
 }
 
 .services-cards {
@@ -286,8 +306,9 @@
 .services-card__title {
     font-size: 24px;
     line-height: 28px;
-    font-weight: bold;
     margin-bottom: 22px;
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
 
 .services-card__description {
@@ -295,6 +316,9 @@
     line-height: 22px;
     color: #AAAAAA;
     margin-bottom: 39px;
+    padding: 0 30px;
+    font-family: 'Gilroy-Regular', sans-serif;
+
 }
 
 .services-card__button {
@@ -309,6 +333,7 @@
     gap: 6px;
     box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .vector {
